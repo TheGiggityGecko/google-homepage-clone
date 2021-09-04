@@ -1,0 +1,1 @@
+An attempt to clone the Google homepage using html/css. My first attempt "building" anything. A challenge from The Odin Project.
