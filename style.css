@@ -1,0 +1,188 @@
+body, html {
+    font-family: arial, sans-serif;
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header {
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+} 
+
+.header-left-link {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-size: 11pt;
+    padding: 5px;
+}
+
+.header-left-link:hover {
+    text-decoration: underline;
+}
+
+.header-right-link:hover {
+    text-decoration: underline;
+}
+
+.header-left {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: auto;
+    float: left;
+}
+
+.header-right-link {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-size: 10pt;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.header-right {
+    float: right;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.header-right img {
+    margin-left: 10px;
+}
+
+.apps-icon {
+    width: 27px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.sign-in {
+    color: rgb(240, 248, 255);
+    background-color: #1a73e8;
+    border-radius: 4px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 9px 27px 10px 27px;
+    font-size: 11pt;
+}
+
+.sign-in:hover {
+    background-color: #2b7de9;
+    box-shadow: 1px 1px 4px rgb(197, 195, 195);
+    
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 340px;
+}
+
+.main-logo img{
+    width: 275px;
+    height: 90px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.search-bar-visible {
+    height: 45px;
+    width: 575px;
+    border: 1px solid rgba(168, 168, 168, 0.366);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-visible:hover {
+    box-shadow: 0px 0px 5px rgb(216, 216, 216);
+}
+
+.search-bar-visible:focus-within {
+    box-shadow: 0px 0px 5px rgb(216, 216, 216);
+}
+
+.search-bar-functional {
+    width: 490px;
+    border: none;
+}
+
+ .search-bar-functional:focus-visible {
+    outline: none;
+}
+
+.search-buttons {
+    height: 35px;
+    width: 145px;
+    border: none;
+    background-color: rgba(248, 248, 248, 0.9);
+    color: rgb(58, 58, 58);
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.search-buttons:hover {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 2px lightgray;
+}
+
+.search-buttons:focus {
+    border: 1px solid rgb(87, 154, 255);
+    box-shadow: 0 0 2px lightgray;
+}
+
+.search-icon {
+    width: 15px;
+    height: auto;
+    position: relative;
+    right: 260px;
+    bottom: 31px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(236, 236, 236, 0.767);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 11pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-left {
+    flex: 2;
+}
+
+.footer-center {
+    flex: 2;
+}
